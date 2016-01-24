@@ -1,6 +1,24 @@
 $primaryColor: #FF0000;
 $staff_members: (arv, char, dav, don, jer, khu, lan, mic, mon, mur, rosy, sher, syl);
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 body {
   font-family: Verdana;
   font-size: 1.5em;
@@ -16,10 +34,13 @@ body {
         width: 195px;
         height: 195px;
         background-image: url(../images/#{$staff}.jpg); 
+        transition: background-image 3s ease-in-out;
       }
-      
+
       .#{$staff}:hover {
         background: url(../images/z#{$staff}.jpg);
+        transition: background-image 0.25s ease-in-out;
+        animation: shake 0.25s;
       }
     }
 

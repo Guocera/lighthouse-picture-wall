@@ -1,3 +1,12 @@
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
 body {
   font-family: Verdana;
   font-size: 1.5em; }
@@ -8,81 +17,120 @@ body {
     body #team-members .arv {
       width: 195px;
       height: 195px;
-      background-image: url(../images/arv.jpg); }
+      background-image: url(../images/arv.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .arv:hover {
-      background: url(../images/zarv.jpg); }
+      background: url(../images/zarv.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .char {
       width: 195px;
       height: 195px;
-      background-image: url(../images/char.jpg); }
+      background-image: url(../images/char.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .char:hover {
-      background: url(../images/zchar.jpg); }
+      background: url(../images/zchar.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .dav {
       width: 195px;
       height: 195px;
-      background-image: url(../images/dav.jpg); }
+      background-image: url(../images/dav.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .dav:hover {
-      background: url(../images/zdav.jpg); }
+      background: url(../images/zdav.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .don {
       width: 195px;
       height: 195px;
-      background-image: url(../images/don.jpg); }
+      background-image: url(../images/don.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .don:hover {
-      background: url(../images/zdon.jpg); }
+      background: url(../images/zdon.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .jer {
       width: 195px;
       height: 195px;
-      background-image: url(../images/jer.jpg); }
+      background-image: url(../images/jer.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .jer:hover {
-      background: url(../images/zjer.jpg); }
+      background: url(../images/zjer.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .khu {
       width: 195px;
       height: 195px;
-      background-image: url(../images/khu.jpg); }
+      background-image: url(../images/khu.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .khu:hover {
-      background: url(../images/zkhu.jpg); }
+      background: url(../images/zkhu.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .lan {
       width: 195px;
       height: 195px;
-      background-image: url(../images/lan.jpg); }
+      background-image: url(../images/lan.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .lan:hover {
-      background: url(../images/zlan.jpg); }
+      background: url(../images/zlan.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .mic {
       width: 195px;
       height: 195px;
-      background-image: url(../images/mic.jpg); }
+      background-image: url(../images/mic.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .mic:hover {
-      background: url(../images/zmic.jpg); }
+      background: url(../images/zmic.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .mon {
       width: 195px;
       height: 195px;
-      background-image: url(../images/mon.jpg); }
+      background-image: url(../images/mon.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .mon:hover {
-      background: url(../images/zmon.jpg); }
+      background: url(../images/zmon.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .mur {
       width: 195px;
       height: 195px;
-      background-image: url(../images/mur.jpg); }
+      background-image: url(../images/mur.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .mur:hover {
-      background: url(../images/zmur.jpg); }
+      background: url(../images/zmur.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .rosy {
       width: 195px;
       height: 195px;
-      background-image: url(../images/rosy.jpg); }
+      background-image: url(../images/rosy.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .rosy:hover {
-      background: url(../images/zrosy.jpg); }
+      background: url(../images/zrosy.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .sher {
       width: 195px;
       height: 195px;
-      background-image: url(../images/sher.jpg); }
+      background-image: url(../images/sher.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .sher:hover {
-      background: url(../images/zsher.jpg); }
+      background: url(../images/zsher.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .syl {
       width: 195px;
       height: 195px;
-      background-image: url(../images/syl.jpg); }
+      background-image: url(../images/syl.jpg);
+      transition: background-image 3s ease-in-out; }
     body #team-members .syl:hover {
-      background: url(../images/zsyl.jpg); }
+      background: url(../images/zsyl.jpg);
+      transition: background-image 0.25s ease-in-out;
+      animation: shake 0.25s; }
     body #team-members .member {
       float: left;
       /*border: 1px solid gray;*/
