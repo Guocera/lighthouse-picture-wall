@@ -1,4 +1,5 @@
 $primaryColor: #FF0000;
+$staff_members: (arv, char, dav, don, jer, khu, lan, mic, mon, mur, rosy, sher, syl);
 
 body {
   font-family: Verdana;
@@ -6,23 +7,31 @@ body {
   h1 {
     color: $primaryColor;
   }
-}
 
-#team-members {
-  clear: both;
-  .member {
-    float: left;
-    /*border: 1px solid gray;*/
-    margin: 10px;
-    padding: 6px;
-    
-    img {
-      width: 200px;
-      height: 200px;
+  #team-members {
+    clear: both;
+
+    @each $staff in $staff_members {  
+      .#{$staff} {
+        width: 195px;
+        height: 195px;
+        background-image: url(../images/#{$staff}.jpg); 
+      }
+      
+      .#{$staff}:hover {
+        background: url(../images/z#{$staff}.jpg);
+      }
     }
 
-    div.name {
-      text-align: center;  
+    .member {
+      float: left;
+      /*border: 1px solid gray;*/
+      margin: 10px;
+      padding: 6px;
+      
+      div.name {
+        text-align: center;  
+      }
     }
 
   }

@@ -3,18 +3,92 @@ body {
   font-size: 1.5em; }
   body h1 {
     color: #FF0000; }
-
-#team-members {
-  clear: both; }
-  #team-members .member {
-    float: left;
-    /*border: 1px solid gray;*/
-    margin: 10px;
-    padding: 6px; }
-    #team-members .member img {
-      width: 200px;
-      height: 200px; }
-    #team-members .member div.name {
-      text-align: center; }
+  body #team-members {
+    clear: both; }
+    body #team-members .arv {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/arv.jpg); }
+    body #team-members .arv:hover {
+      background: url(../images/zarv.jpg); }
+    body #team-members .char {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/char.jpg); }
+    body #team-members .char:hover {
+      background: url(../images/zchar.jpg); }
+    body #team-members .dav {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/dav.jpg); }
+    body #team-members .dav:hover {
+      background: url(../images/zdav.jpg); }
+    body #team-members .don {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/don.jpg); }
+    body #team-members .don:hover {
+      background: url(../images/zdon.jpg); }
+    body #team-members .jer {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/jer.jpg); }
+    body #team-members .jer:hover {
+      background: url(../images/zjer.jpg); }
+    body #team-members .khu {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/khu.jpg); }
+    body #team-members .khu:hover {
+      background: url(../images/zkhu.jpg); }
+    body #team-members .lan {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/lan.jpg); }
+    body #team-members .lan:hover {
+      background: url(../images/zlan.jpg); }
+    body #team-members .mic {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/mic.jpg); }
+    body #team-members .mic:hover {
+      background: url(../images/zmic.jpg); }
+    body #team-members .mon {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/mon.jpg); }
+    body #team-members .mon:hover {
+      background: url(../images/zmon.jpg); }
+    body #team-members .mur {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/mur.jpg); }
+    body #team-members .mur:hover {
+      background: url(../images/zmur.jpg); }
+    body #team-members .rosy {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/rosy.jpg); }
+    body #team-members .rosy:hover {
+      background: url(../images/zrosy.jpg); }
+    body #team-members .sher {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/sher.jpg); }
+    body #team-members .sher:hover {
+      background: url(../images/zsher.jpg); }
+    body #team-members .syl {
+      width: 195px;
+      height: 195px;
+      background-image: url(../images/syl.jpg); }
+    body #team-members .syl:hover {
+      background: url(../images/zsyl.jpg); }
+    body #team-members .member {
+      float: left;
+      /*border: 1px solid gray;*/
+      margin: 10px;
+      padding: 6px; }
+      body #team-members .member div.name {
+        text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
